@@ -47,28 +47,28 @@ contactos.forEach(contacto => {
             imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/Luigi.png';
             imgContacto.alt = 'Luigi';
             activityContact.textContent = 'últ. vez hoy a las 07:34';
-            chatIframe.src = '/Conversaciones HTML/Conversación Fox-Luigi.html';
+            chatIframe.src = 'Conversaciones HTML/Conversación Fox-Luigi.html';
 
         } else if (chatId === 'donkeykong') {
             nombreContacto.textContent = 'Donkey Kong';
             imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/DK.png';
             imgContacto.alt = 'DK';
             activityContact.textContent = 'últ. vez ayer a las 22:16';
-            chatIframe.src = '/Conversaciones HTML/Conversación Fox-DK.html';
+            chatIframe.src = 'Conversaciones HTML/Conversación Fox-DK.html';
 
         } else if (chatId === 'link') {
             nombreContacto.textContent = 'Link';
             imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/Link.png';
             imgContacto.alt = 'Link';
             activityContact.textContent = 'En línea';
-            chatIframe.src = '/Conversaciones HTML/Conversación Fox-Link.html';
+            chatIframe.src = 'Conversaciones HTML/Conversación Fox-Link.html';
 
         } else if (chatId === 'samus') {
             nombreContacto.textContent = 'Samus';
             imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/Samus.png';
             imgContacto.alt = 'Samus';
             activityContact.textContent = 'últ. vez hoy a las 01:47';
-            chatIframe.src = '/Conversaciones HTML/Conversación Samus.html';
+            chatIframe.src = 'Conversaciones HTML/Conversación Samus.html';
         }        
     });
 });
