@@ -1,0 +1,85 @@
+/* Apartado del NavBar */
+
+.nav__custom__color {
+    background-color: black ;
+}
+
+.navbar__logo {
+width: 200px;
+height: 70px;
+}
+
+.navbar__toggler__logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav__effect {
+    transition: 0.3 ease;
+    
+}
+
+.nav__effect:hover {
+    background-color: rgba(48, 119, 200, 0.9);
+    transform: scale(1.05) translateY(-5px) translateX(-10px);
+}
+
+
+.custom__icon {
+    color: #00BFFF;
+}
+
+.BG-CHAT {
+    filter: grayscale(0.8);
+    height: 74vh;
+}
+
+/* Efecto Hover en listas y borde animado */
+.list__effect {    
+    transition: 0.3s ease;    
+}
+
+.list__effect:hover {
+    background-color: rgba(48, 119, 200, 0.9) !important;
+    transform: scale(1.05) translateY(-5px);     
+}
+
+.border__custom {
+    border-width: 5px;
+    border-style: solid;
+    border-image: linear-gradient(90deg, #3077C8, transparent) 1; 
+    animation: animate-border 5s linear infinite;
+}
+
+@keyframes animate-border {
+    0% {
+        border-image-source: linear-gradient(90deg, #3077C8, transparent, transparent);
+    }
+    25% {
+        border-image-source: linear-gradient(180deg, #3077C8, transparent, transparent);
+    }
+    50% {
+        border-image-source: linear-gradient(270deg, #3077C8, transparent, transparent);
+    }
+    75% {
+        border-image-source: linear-gradient(360deg, #3077C8, transparent, transparent);
+    }
+    100% {
+        border-image-source: linear-gradient(450deg, #3077C8, transparent, transparent);
+    }
+}
+
+/* Estilo de Animación de Entrada */
+#preloader {
+    z-index: 9999;
+}
+
+.logo-preloader {
+    width: 100px; 
+}
+
+.progress-bar {
+    background-color: #3077C8;     
+}
+
+

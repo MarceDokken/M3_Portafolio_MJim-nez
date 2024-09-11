@@ -1,0 +1,109 @@
+.contenedor__chat {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    margin: 0; 
+    padding: 0;  
+    text-align: left;  
+    color: white;
+}
+
+.character__icon{
+    border-radius: 50%;
+}
+
+.multimedia__file{
+    border-radius: 5%;
+    margin: 10px;    
+}
+
+
+.chat__day {
+    display: flex; 
+    justify-content: center;
+    background-color: transparent;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.day__box {
+    background-color: rgba(41, 41, 41, 0.7);
+    position: relative;
+    padding: 0 10px 0 10px;
+    border-radius: 15px;
+    margin-bottom: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: fit-content; 
+}
+
+
+
+
+
+
+
+.chat__fox {
+    display: flex; 
+    justify-content: end;
+    background-color: transparent;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.fox__box {
+    background-color: rgba(48, 119, 200, 0.9);
+    position: relative;
+    padding: 0 10px 0 10px;
+    border-radius: 15px;
+    margin-bottom: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: fit-content; 
+}
+
+.chat__allcharacter{   
+    display: flex; 
+    justify-content: start;
+    background-color: transparent;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.allcharacter__box {
+    background-color: rgba(41, 41, 41, 0.9);
+    position: relative;
+    padding: 0 10px 0 10px;
+    border-radius: 15px;
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    max-width: fit-content;     
+}
+
+
+.message-info {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: flex-end;
+    font-size: 0.75rem;
+    color: rgba(255, 255, 255, 0.75); 
+    margin-top: 7px; 
+    width: 100%; 
+}
+
+.time {
+    margin-right: 5px; /* Separación entre la hora y los tickets */
+}
+
+
+
+
