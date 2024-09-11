@@ -15,13 +15,13 @@ contactos.forEach(contacto => {
             imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/Fox.png';
             imgContacto.alt = 'Fox';
             activityContact.textContent = 'Envía mensajes a este mismo número';
-            chatIframe.src = '/Conversaciones HTML/Conversación Fox-Fox.html';
+            chatIframe.src = 'Conversaciones HTML/Conversación Fox-Fox.html';
         } else if (chatId === 'mario') {
             nombreContacto.textContent = 'Mario';
             imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/Mario.png';
             imgContacto.alt = 'Mario';
             activityContact.textContent = 'En línea';
-            chatIframe.src = '/Conversaciones HTML/Conversación Fox-Mario.html';
+            chatIframe.src = 'Conversaciones HTML/Conversación Fox-Mario.html';
 
             // En el caso de de Mario que cambie las notificaciones
                        
