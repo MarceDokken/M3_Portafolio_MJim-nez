@@ -63,12 +63,12 @@ contactos.forEach(contacto => {
             activityContact.textContent = 'En línea';
             chatIframe.src = 'Conversaciones HTML/Conversación Fox-Link.html';
 
-        } else if (chatId === 'samus') {
-            nombreContacto.textContent = 'Samus';
-            imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/Samus.png';
-            imgContacto.alt = 'Samus';
+        } else if (chatId === 'yoshi') {
+            nombreContacto.textContent = 'Yoshi';
+            imgContacto.src = 'Assets/IMG/Imagen de Perfil del Personaje/Yoshi.png';
+            imgContacto.alt = 'Yoshi';
             activityContact.textContent = 'últ. vez hoy a las 01:47';
-            chatIframe.src = 'Conversaciones HTML/Conversación Samus.html';
+            chatIframe.src = 'Conversaciones HTML/Conversación Fox-Yoshi.html';
         }        
     });
 });
